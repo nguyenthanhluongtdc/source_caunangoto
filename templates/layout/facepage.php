@@ -1,0 +1,2 @@
+<?php if(@$pageURL == "") $pageURL = $information['facebook']; ?>
+<?php if(count(explode("iframe",$pageURL))>1):?><?=$pageURL?><?php else:?><iframe src="https://www.facebook.com/plugins/page.php?href=<?=urlencode($pageURL)?>&tabs=timeline&width=250&height=220&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="250" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe><?php endif?>

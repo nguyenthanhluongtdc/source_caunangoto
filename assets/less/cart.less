@@ -1,0 +1,140 @@
+.table-cart-wrapper {
+
+    .item-cart{
+        >h3 {
+            position: relative;
+            margin-bottom: 20px;
+
+            b{
+                color: #000;
+            }
+        
+        }
+
+        >h3:before{
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 15%;
+            height: 3px;
+            background: #fd6e1d;
+            background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fd6e1d), to(#f59000));
+            background: -webkit-linear-gradient(top, #f59000, #fd6e1d);
+        }
+    }
+    
+    .item-left{
+
+        .row-item{
+            position: relative;
+            display: flex;
+            background: #fff;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 0 2px 1px #ccc;
+            align-items: center;
+
+            .quantity{
+                display: grid;
+
+                .qt{
+                    width: 40px;
+                    text-align: center;
+                    color: #000;
+                }
+            }
+
+            .info{
+                
+                h3{
+                    margin: 0;
+                    font-size: 18px;
+                    margin-bottom: 8px;
+                    
+                    a{
+                        color: #000;
+                    }
+                }
+
+                .price-sale{
+                    color: red;
+                    font-size: 16px;
+                }
+
+                .delete{
+                    text-align: left;
+                    margin-top: 10px;
+
+                    .btn-remove{
+                        background: transparent;
+                        border: none;
+    
+                        i{
+                            font-size: 20px;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+
+            .ri{
+                margin-right: 30px;
+            }
+        }
+    }
+
+    .item-right{
+
+        .total-money{
+            display: flex;
+            justify-content: space-between;
+            background: #fff;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 0 2px 1px #ccc;
+            
+
+            div:first-child{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            div:last-child{
+                font-size: 16px;
+                color: red;
+                font-weight: bold;
+                font-style: italic;
+            }
+        }
+
+        .pay-main{
+            display: flex;
+            justify-content: space-between;
+
+            .pay, .buy-add{
+                height: 40px;
+                display: inline-block;
+                background: #fd6e1d;
+                background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fd6e1d), to(#f59000));
+                background: -webkit-linear-gradient(top, #f59000, #fd6e1d);
+                color: #fff;
+                font-weight: bold;
+                line-height: 40px;
+                text-align: center;
+                font-size: 16px;
+                border-radius: 5px;
+            }
+
+            .buy-add{
+                width: 30%;
+            }
+
+            .pay{
+                width: 60%;
+            }
+        }
+    }
+}
+

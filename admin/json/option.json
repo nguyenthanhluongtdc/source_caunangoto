@@ -1,0 +1,94 @@
+{
+	"default": {
+		"list": {
+			"thumbnail": false,
+			"video": false,
+			"link": false,
+			"category_": {
+				"category_id": {
+					"title": "Danh mục sản phẩm",
+					"table": "category",
+					"column": "title"
+				}
+			},
+			"text": {
+				"title": "Tên"
+			},
+			"popular_": {
+				"popular": "Nổi bật"
+			}
+		},
+		"edit": {
+			"thumbnail": false,
+			"video": false,
+			"link": false,
+			"category_": {
+				"category_id": {
+					"title": "Danh mục sản phẩm",
+					"table": "category",
+					"condition": "where type like 'product' order by title",
+					"list": [ { "id": "value 1", "title": "Title 1" }, { "id": "value 2", "title": "Title 2" } ]
+				}
+			},
+			"popular_": {
+				"popular": "Nổi bật"
+			},
+			"input": {
+				"title": "Tên"
+			},
+			"text_": {
+				"title": "Tên"
+			},
+			"editor_": {
+				"title": "Tên"
+			},
+			"checkbox_": {
+				"category_id": {
+					"title": "Danh mục sản phẩm",
+					"table": "category",
+					"condition": "where type like 'product' order by title",
+					"list": [ { "id": "value 1", "title": "Title 1" }, { "id": "value 2", "title": "Title 2" } ]
+				}
+			}
+		}
+	},
+	"video": {
+		"title": "video",
+		"list": {
+			"video": true
+		},
+		"edit": {
+			"video": true
+		}
+	},
+	"introduction": {
+		"title": "giới thiệu",
+		"list": {
+			"thumbnail": true
+		},
+		"edit": {
+			"thumbnail": true,
+			"text": {
+				"description": "Mô tả ngắn"
+			},
+			"editor": {
+				"content": "Nội dung"
+			}
+		}
+	},
+	"FAQS": {
+		"title": "FAQS Trang Chủ",
+		"list": {
+			"thumbnail": false
+		},
+		"edit": {
+			"thumbnail": false,
+			"text": {
+				"title": "Câu hỏi FAQS"
+			},
+			"editor": {
+				"content": "Nội dung"
+			}
+		}
+	}
+}

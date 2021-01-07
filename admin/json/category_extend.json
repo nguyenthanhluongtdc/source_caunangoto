@@ -1,0 +1,27 @@
+{
+	"image": {
+		"title": "hình ảnh",
+		"list": {
+			"thumbnail": true
+		},
+		"edit": {
+			"thumbnail": true
+		}
+	},
+	"tab": {
+		"title": "Thẻ",
+		"list": {
+			"text": {
+				"title": "tên thẻ"
+			}
+		},
+		"edit": {
+			"input": {
+				"title": "Tên thẻ"
+			},
+			"editor": {
+				"content": "Nội dung"
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"list": {
+		"thumbnail": true,
+		"video": false,
+		"text": {
+			"first_tag": "Tiêu đề trong trang"
+		},
+		"category": {
+				"category_id": {
+					"title": "Danh mục bài viết",
+					"table": "category",
+					"column": "title"
+				}
+		},
+		"popular": {
+			"popular": "Nổi bật"
+		}
+	},
+	"edit": {
+		"thumbnail": true,
+		"video": false,
+		"uri": false,
+		"level": true,
+		"category_": {
+			"category_id": {
+				"title": "Danh mục bài viết",
+				"table": "category",
+				"condition": "where type like 'post' order by title",
+				"list_": [ { "id": "value 1", "title": "Title 1" }, { "id": "value 2", "title": "Title 2" } ],
+				"required": "required"
+			}
+		},
+		"popular": {
+			"popular": "Nổi bật"
+		},
+		"input_": {
+			"first_tag": "Tiêu đề trong chi tiết"
+		},
+		"text": {
+			"description": "Mô tả ngắn"
+		},
+		"editor": {
+			"content": "Nội dung"
+		},
+		"checkbox": {
+			"category_id": {
+				"title": "Danh mục bài viết",
+				"table": "category",
+				"condition": "where type like 'post' order by title",
+				"list_": [ { "id": "value 1", "title": "Title 1" }, { "id": "value 2", "title": "Title 2" } ]
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"Sản phẩm & bài viết": {
+    "Sản phẩm": [ "_product", "index.php?com=product&act=list" ],
+    "Bài viết" : [ "_post", "index.php?com=post&act=list"],
+    "Đơn hàng": [ "_order", "index.php?com=order&act=list" ]
+  },
+	"Giao diện" : {
+    "Thong tin chung": [ "layout-ui_graph", "index.php?com=graph&type=layout-ui" ],
+    "Trang chủ": [ "layout-index_graph", "index.php?com=graph&type=layout-index" ],
+	  "Header": [ "layout-header_graph", "index.php?com=graph&type=layout-header" ],
+	  "Footer": [ "layout-footer_graph", "index.php?com=graph&type=layout-footer" ],
+	  "Phân loại danh mục": [ "classify_graph", "index.php?com=graph&type=classify" ]
+	},
+  "Tài khoản & tin liên hệ": {
+    "Tin liên hệ": [ "contact_contact", "index.php?com=contact&act=list&type=contact" ],
+    "Tài khoản quản trị": [ "_user", "index.php?com=user&act=list" ]
+  },
+  "Thiết lập": {
+    "Ngôn ngữ": [ "_language", "index.php?com=language&act=list", "master" ],
+    "Thông tin website": [ "_website", "index.php?com=website" ],
+    "Thông tin email": [ "_email", "index.php?com=email", "master" ]
+  }
+}

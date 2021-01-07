@@ -1,0 +1,49 @@
+@color: rgb(0,98,102);;
+@fontSizeHeaderTop: 20px;
+@colorF0F0F0: #f0f0f0;
+@widthMenu: 230px;
+@widthBanner: 65%; 
+@colorBoxShadow: #ccc;
+
+
+.banner-post{
+    
+    background-size: cover; 
+    position: relative;
+    min-height: 200px;
+    .box-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        h1{
+            font-size: 35px;
+            color: #fff;
+            animation: aniH1 1s 1;
+            text-align: center;
+            text-transform: capitalize;
+        }
+
+        .item-category {
+            animation: aniCategory 1s 1;
+            span{
+                color: #fff;
+            }
+        }
+    }
+}
+
+@keyframes aniH1 {.mixi-h1;}
+
+.mixi-h1 () {
+    from {transform: translateY(-80px); opacity: 0.3;}
+    to {transform: translateY(0); opacity: 1;}
+}
+
+@keyframes aniCategory {.mixi-category;}
+
+.mixi-category () {
+    from {transform: translateY(80px); opacity: 0.3;}
+    to {transform: translateY(0); opacity: 1;}
+}

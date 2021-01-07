@@ -1,0 +1,72 @@
+{
+	"type": {
+		"product": "Danh mục sản phẩm",
+		"post": "Danh mục bài viết",
+		"page": "Danh mục trang"
+	},
+	"list_": {
+		"thumbnail": false,
+		"video": false,
+		"category": {
+			"related_id": "Danh mục cha"
+		},
+		"popular": {
+			"popular": "Nổi bật"
+		}
+	},
+	"edit": {
+		"category_": {
+			"parent_id": {
+				"title": "Danh mục cha",
+				"table": "category",
+				"condition": "where type like 'product' order by title",
+				"list_": [ { "id": "value 1", "title": "Title 1" }, { "id": "value 2", "title": "Title 2" } ],
+				"required": "required"
+			}
+		},
+		"popular": {
+			"popular": "Nổi bật"
+		},
+		"input": {
+			"title": "Tên danh mục",
+			"first_tag": "Tiêu đề trong trang"
+		},
+		"text_": {
+			"description": "Mô tả ngắn"
+		},
+		"editor": {
+			"content": "Nội dung"
+		},
+		"checkbox_": {
+			"related_id": {
+				"title": "Danh mục liên quan",
+				"table": "category",
+				"condition": "where type like 'product' order by title",
+				"list_": [ { "id": "value 1", "title": "Title 1" }, { "id": "value 2", "title": "Title 2" } ]
+			}
+		},
+		"checkbox_admin": {
+			"title": "Trường thuộc tính:",
+			"list": {
+				"uri": "Đường dẫn cố định",
+				"thumbnail": "Ảnh đại diện",
+				"gallery": "Hình ảnh khác",
+				"video": "Video",
+				"related_id": "Danh mục liên quan",
+				"title": "Tên danh mục",
+				"first_tag": "Tiêu đề trong trang",
+				"description": "Mô tả",
+				"content": "Nội dung",
+				"second_tag": "Tag 2",
+				"third_tag": "Tag 3",
+				"index_first_tag": "Index tag 1",
+				"index_second_tag": "Index tag 2",
+				"index_third_tag": "Index tag 3",
+				"category_extend": {
+					"tab": "Danh sách thẻ"
+				}
+			}
+		},
+		"checkbox_admin_default": "uri_,thumbnail,gallery_,video_,title,first_tag,description_,content,category_extend_"
+	}
+}

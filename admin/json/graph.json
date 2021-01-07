@@ -1,0 +1,297 @@
+	{
+	"layout-index-carousel":{
+		"type":"container","name":"layout-index","title":"Carousel trang chu (1920 x 355px pixels) ","column":5,"layout":[
+			{
+				"type":"image-list","name":"layout-index","group":"carousel_main","title":"banner ch\u1ea1y trang ch\u1ee7"
+			}
+		]
+	},"layout-index-product_top":{
+		"type":"container","name":"layout-index","title":"product","column":5,"nosub":1,"layout":[
+			{
+				"type":"image-list","name":"layout-index","group":"product_top","title":"product","input-type":"input","link":true
+			}
+		]
+	},"layout-index-category_hot":{
+		"type":"position","name":"layout-index","title":"Danh mục sản phẩm nổi bật","group":"category_hot","column":5,"nosub":1,"layout":[
+			{
+				
+			}
+		]
+	},"layout-index-category_post_hot":{
+		"type":"position","name":"layout-index","title":"Danh mục bài viết nổi bật","group":"category_post_hot","column":5,"nosub":1,"layout":[
+			{
+				
+			}
+		]
+	},"layout-index-commit":{
+		"type":"container","name":"layout-index","title":"Content home","group":"info_commit","column":5,"nosub":1,"layout":[
+			{	
+				"type":"image","name":"layout-index","group":"img_commit_main","title":"Hinh anh chinh"
+			},{	
+				"type":"image-list","name":"layout-index","group":"item_commit","title":"item","input-type":"input","link":true
+			}
+		]
+	},"layout-index-link_video":{
+		"type":"container","name":"layout-index","title":"Content home","group":"info_commit","column":5,"nosub":1,"layout":[
+			{	
+				"type":"input","name":"layout-index","group":"title_video","title":"Tieu de video"
+			},{	
+				"type":"input","name":"layout-index","group":"link_video","title":"Link Video"
+			}
+		]
+	},"layout-index-infomation_add":{
+		"type":"container","name":"layout-index","title":"Content home","group":"info_add","column":1,"nosub":1,"layout":[
+			{
+				"type":"input","name":"layout-index","group":"title_info_add_main","title":"Tieu de ex:(Hotline)"
+			},{
+				"type":"editor","name":"layout-index","group":"content_info_add_main","title":"noi dung"
+			},{	
+				"type":"image","name":"layout-index","group":"img_info_add_main","title":"Hinh anh chinh"
+			}
+		]
+	},"layout-index-google":{
+		"type":"container","name":"layout-index","title":"Google map","nosub":1,"column":5,"layout":[
+			{
+				"type":"text","name":"layout-index","group":"google","title":"google map"
+			}
+		]
+	},"layout-logo_website":{
+		"type":"container","name":"layout-header","title":"LOGO WEBSITE (300 x 150 pixels) va BANNER()","column":1,"nosub":3,"layout":[
+			{	
+				"type":"image","name":"layout-header","group":"logo_website","title":"LOGO WEBSITE"
+			}
+		]
+	},"layout-hotline":{
+		"type":"container","name":"layout-header","title":"Hotline","column":1,"nosub":1,"layout":[
+			{
+				"type":"input","name":"layout-header","group":"title_hotline","title":"Tieu de ex:(Hotline)"
+			},{
+				"type":"input","name":"layout-header","group":"tel_hotline","title":"So dien thoai ex:(849230923)","input-type":"input"
+			}
+			
+		]
+	},"layout-support":{
+		"type":"container","name":"layout-header","title":"Support","column":5,"nosub":1,"layout":[
+			{
+				"type":"image-list","name":"layout-header","group":"header_support","title":"Tieu de ex:(Hotline)","input-type":"input","link":true
+			}
+			
+		]
+	},"layout-navigation":{
+		"type":"position","name":"layout-header","group":"navigation","title":"NAVIGATION","column":6,"nosub":3,"layout":[
+		]
+	},
+	"layout-header-trang":{
+		"type":"position","name":"layout-header","group":"trang","title":"Danh mục trang","column":6,"nosub":1,"layout":[
+		]
+	},
+	"layout-header-trangQC":{
+		"type":"position","name":"layout-header","group":"trangQC","title":"Danh mục trang QC","column":6,"nosub":1,"layout":[
+		]
+	},"layout-header-fanpage":{
+		"type":"container","name":"layout-header","group":"fanpage","title":"fanpage của các trang","column":6,"nosub":3,"layout":[
+			{
+				"type":"input","name":"layout-header","group":"fanpage","title":"fanpage của các trang"
+			}
+		]
+	},"layout-footer-row1":{
+		"type":"container","name":"layout-footer","group":"footer_row1","title":"row 1","nosub":1,"column":5,"layout":[
+			{
+				"type":"image","name":"layout-footer","group":"logo_footer","title":" Logo footer "
+			}
+		]
+	},"layout-footer-row2":{
+		"type":"container","name":"layout-footer","group":"footer_row2","title":"Danh muc","nosub":1,"column":1,"layout":[
+			{
+				"type":"input","name":"layout-footer","group":"title_row2","title":" Title  "
+			},{
+				"type":"editor","name":"layout-footer","group":"content_row2","title":" content "
+			}
+		]
+	},"layout-footer-row3":{
+		"type":"container","name":"layout-footer","group":"footer_row3","title":"Ho tro khach hang","nosub":1,"column":1,"layout":[
+			{
+				"type":"input","name":"layout-footer","group":"title_row3","title":"Title "
+			},{
+				"type":"editor","name":"layout-footer","group":"content_row3","title":"content"
+			}
+		]
+	},"layout-footer-row4":{
+		"type":"container","name":"layout-footer","group":"footer_row4","title":"Ban do","nosub":1,"column":1,"layout":[
+			{
+				"type":"input","name":"layout-footer","group":"title_row4","title":"Title ban do"
+			},{
+				"type":"input","name":"layout-footer","group":"value_row4","title":" Value ban do "
+			}
+		]
+	},
+	"classify-thanhcong":{
+		"type":"position","name":"classify","group":"thanhcong","title":"Thanh toán thành công","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},
+	"classify-home":{
+		"type":"position","name":"classify","group":"home","title":"Trang ch\u1ee7","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-info":{
+		"type":"position","name":"classify","group":"info","title":"Trang gi\u1edbi thi\u1ec7u","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-contact":{
+		"type":"position","name":"classify","group":"contact","title":"Trang li\u00ean h\u1ec7","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-search":{
+		"type":"position","name":"classify","group":"search","title":"Trang t\u00ecm ki\u1ebfm","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-cart":{
+		"type":"position","name":"classify","group":"cart","title":"Gi\u1ecf h\u00e0ng","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-pay":{
+		"type":"position","name":"classify","group":"pay","title":"Thanh toan","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-product-all":{
+		"type":"position","name":"classify","group":"product-all","title":"Trang s\u1ea3n ph\u1ea9m","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-blog":{
+		"type":"position","name":"classify","group":"blog","title":"Trang b\u00e0i vi\u1ebft","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-category-menu":{
+		"type":"position","name":"classify","group":"category-menu","title":"Danh mục cha","column":6,"limit":{
+			"level-1":0
+		},"nosub":1,"layout":[
+		]
+	},"classify-muasi":{
+		"type":"position","name":"classify","group":"muasi","title":"Trang mua s\u1ec9","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-danhmucmobile":{
+		"type":"position","name":"classify","group":"danhmucmobile","title":"Trang danh mục mobile","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-cuahang":{
+		"type":"position","name":"classify","group":"cuahang","title":"Trang c\u1eeda h\u00e0ng","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-thanhtoan":{
+		"type":"position","name":"classify","group":"thanhtoan","title":"Trang thanh to\u00e1n","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-category_product":{
+		"type":"position","name":"classify","group":"category_product","title":"san pham","column":6,"limit":{
+			"level-1":1
+		},"nosub":1,"layout":[
+		]
+	},"classify-brand":{
+		"type":"position","name":"classify","group":"brand","title":"Thương Hiệu","column":6,"limit":{
+			"level-1":0
+		},"nosub":1,"layout":[
+		]
+	},"layout-color":{
+		"type":"container","name":"layout-color","title":"M\u00e0u s\u1eafc","column":3,"layout":[
+			{
+				"type":"color","name":"layout-color","group":"color-1","title":"M\u00e0u 1"
+			},{
+				"type":"color","name":"layout-color","group":"color-2","title":"M\u00e0u 2"
+			},{
+				"type":"color","name":"layout-color","group":"color-3","title":"M\u00e0u 3"
+			},{
+				"type":"color","name":"layout-color","group":"color-4","title":"M\u00e0u 4"
+			},{
+				"type":"color","name":"layout-color","group":"color-5","title":"M\u00e0u 5"
+			},{
+				"type":"color","name":"layout-color","group":"color-6","title":"M\u00e0u 6"
+			},{
+				"type":"color","name":"layout-color","group":"color-7","title":"M\u00e0u 7"
+			},{
+				"type":"color","name":"layout-color","group":"color-8","title":"M\u00e0u 8"
+			},{
+				"type":"color","name":"layout-color","group":"color-9","title":"M\u00e0u 9"
+			}
+		]
+	},"layout-icon_contact":{
+		"type":"container","name":"layout-header","group":"sidebar","title":" icon lien he ","column":6,"layout":[
+			{
+				"type":"image-list","name":"layout-header","group":"icon_contact","link":true
+			}
+		]
+	}
+	,"layout-danhsachnhaplieu":{
+		"type":"container","name":"layout-danhsachnhaplieu","title":"danh sách nhập chuyển đổi ngôn ngữ","column":6,"layout":[
+			{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-dmsp","title":"danh mục sản phẩm"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-sanphammoi","title":"San pham moi"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-goiychoban","title":"Goi y cho ban"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-mo","title":"mua online"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-timkiem","title":"Nhập từ khóa tìm kiếm"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-motasanpham","title":"Mo ta san pham"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-xemthem","title":"Xem them"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-muangay","title":"Mua ngay"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-delete","title":"Delete"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-tongtien","title":"Tong tien"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-giam","title":"Giam"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-thanhtoan","title":"Can thanh toan"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-anh","title":"anh"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-chi","title":"chi"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-hoten","title":"ho ten"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-sodienthoai","title":"So dien thoai"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-email","title":"Nhap email"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-diachigiaohang","title":"Dia chi giao hang"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-nhanhangtaishop","title":"Nhan hang tai shop"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-btnThanhtoan","title":"Thanh toan khi nhan hang"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-xemhangtruockhithanhtoan","title":"Xem hang truoc khi thanh toan"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-yeucaukhac","title":"Yeu cau khac"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-sonhatenxa","title":"nhap so nha ten xa, quan, huyen"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-hotdeail","title":"hot detail"
+			},{
+				"type":"input","name":"layout-danhsachnhaplieu","group":"nhap-dephucvunhanhon","title":"de phuc vu nhanh hon"
+			},{
+				"type":"editor","name":"layout-danhsachnhaplieu","group":"nhap-khuyenmai","title":"Khuyen mai"
+			},{
+				"type":"editor","name":"layout-danhsachnhaplieu","group":"nhap-thongtingioithieu","title":"Thong tin gioi thieu"
+			}
+		]
+	}
+}

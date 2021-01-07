@@ -1,0 +1,62 @@
+{
+	"list": {
+		"thumbnail": true, 
+		"category": {
+				"category_id": {
+					"title": "Danh mục sản phẩm",
+					"table": "category",
+					"column": "title"
+				}
+		},
+		"popular": {
+			"popular2": "Mới nhất"
+		}
+	},
+	"edit": {
+		"thumbnail": true,
+		"gallery": true,
+		"video": false,
+		"uri": false,
+		"level": false,
+		"serial": false,
+		"status": true,
+		"popular": true,
+		"price": "number",
+		"origin": "number",
+		"promotion": true,
+		"combo": false,
+		"province": false,
+		"district": false,
+		"ward": false,
+		"address": false,
+		
+		"_category": {
+			"category_id": {
+				"title": "Danh mục sản phẩm",
+				"table": "category",
+				"condition": "where type like 'product' order by title",
+				"list_": [ { "id": "value 1", "title": "Title 1" }, { "id": "value 2", "title": "Title 2" } ],
+				"required": "required"
+			}
+		}
+		,
+		"popular_": {
+			"popular": "Nổi bật",
+			"popular2": "Bán chạy"
+		}
+		,
+		"editor": {
+			"first_tag":"Mô tả sản phẩm (ngắn)",
+			"second_tag":"Thông tin chi tiết"
+		},
+		"checkbox": {
+			"category_id": {
+				"title": "Danh mục sản phẩm",
+				"table": "category",
+				"condition": "where type like 'product'",
+				"list_": [ { "id": "value 1", "title": "Title 1" }, { "id": "value 2", "title": "Title 2" } ]
+			}
+			
+		}
+	}
+}
